@@ -8,3 +8,21 @@ Result: #ore python progra##ing please
 
 '''
 
+
+
+word = input("Tell me a word.")
+symbol = input("Tell me a symbol.")
+to_replace = word[0]
+
+print(word.replace(to_replace,symbol))
+
+
+
+
+
+
+
+
+
+
+

@@ -7,3 +7,10 @@ Letter input:
 Result: 4
 
 '''
+
+
+text = input("Please enter a word")
+letter = input("Please enter a letter")
+result= text.find(letter)
+
+print(result)
