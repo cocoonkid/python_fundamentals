@@ -12,12 +12,13 @@ num1 = len(text1)
 num2 = len(text2)
 num3 = len(text3)
 
-if num1 > num2 and num1 > num3
-    print(num1)
-elsif num2 > num1 and num2 > num3
-    print(num1)
-elsif num3 > num1 and num3 > num2
-else
+if (num1 > num2) and (num1 > num3):
+    print(text1)
+elif num2 > num1 and num2 > num3:
+    print(text2)
+elif num3 > num1 and num3 > num2:
+    print(text3)
+else:
     print("There is no longest text.")
 
 
