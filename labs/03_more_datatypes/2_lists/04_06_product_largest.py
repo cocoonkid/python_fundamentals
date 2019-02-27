@@ -1,10 +1,9 @@
 '''
 Take in 10 numbers from the user. Place the numbers in a list.
-Calculate the product of all of the numbers in the list.
-Also, find the largest number in the list.
-
+Find the largest number in the list.
 Print the results.
 
+<<<<<<< HEAD
 '''
 
 
@@ -37,3 +36,11 @@ else:
 
 
 
+=======
+CHALLENGE: Calculate the product of all of the numbers in the list.
+(you will need to use "looping" - a concept common to list operations
+that we haven't looked at yet. See if you can figure it out, otherwise
+come back to this task after you have learned about loops)
+
+'''
+>>>>>>> a2559241a173d7e0ba741a8d44f5da6351605420
