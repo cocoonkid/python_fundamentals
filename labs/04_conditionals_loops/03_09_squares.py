@@ -5,3 +5,7 @@ Use a for loop that demonstrates the use of the range function.
 
 '''
 
+
+
+for item in range(1,50 + 1):
+    print(item ** 2)

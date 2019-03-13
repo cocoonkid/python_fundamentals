@@ -14,5 +14,6 @@ for word in list:
     wordcountdict[word] = wordcount
 
 a = max(wordcountdict)
-print(a)
-print(wordcountdict)
+y = len(wordcountdict)
+print("The Word " + a + " occurs " + str(y) +  " times!")
+
