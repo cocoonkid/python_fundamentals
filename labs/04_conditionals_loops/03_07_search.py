@@ -6,10 +6,17 @@ Use while loop to find the number - when the number is found exit the loop and p
 '''
 
 
-num = input("Please enter a number from one to one billion! ")
+num = int(input("Please enter a number from one to one billion!: \n "))
 
-while item in range(0, 1000000000):
-        if item == num:
-            print(item)
-        else:
-            break
+counter = 0
+
+while counter < 100:
+    counter += 1
+    if counter == num:
+        print("Your numbers is " + str(counter) + " !")
+
+
+
+
+
+
